@@ -1,39 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: auto;
 }
-
-body {
-  background-color: rgba(89, 207, 146, 0.589);
+p {
+  display: flex;
+  justify-content: center;
 }
-
-#errorsOut {
-  margin-top: 18vh;
-  margin-left: 35vw;
-  color: red;
+p button {
+  display: block;
+  margin-left: 100px;
 }
-
-.form {
-  margin-left: 35vw;
-  margin-right: 35vw;
-  background-color: bisque;
+p a {
+  display: block;
+  margin-left: -100px;
 }
-
-textarea {
-  background-color: rgb(211, 255, 129);
-}
-
-.form-urls {
-  margin-left: 35vw;
-}
-
-a {
-  background-color: brown;
-  color: aqua;
-}
-
-button {
-  background-color: brown;
-  color: chartreuse;
-  margin-left: 20 vw;
+p .but {
+  padding: 5px;
+  background-color: #4218a5;
+  color: cornsilk;
+  border: solid 2px #18a52b;
 }

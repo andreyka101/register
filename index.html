@@ -5,12 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>register</title>
-    <link rel="stylesheet" href="/dist/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h2>
-      ooo
-    </h2>
+    <div class="box">
+        <input type="text" id="username" name="name" placeholder="username">
+        <input type="email" id="email" name="name" placeholder="mail">
+        <input type="password" id="password" name="name" placeholder="password">
+        <input type="password" id="password2" name="name" placeholder="password">
+    </div>
+
+    <p>
+      <button class="but" onclick="send()">send</button>
+    </p>
+    <p>
+      <span>
+        or
+      </span>
+    </p>
+    <p>
+      <a class="but" href="login">log in</a>
+    </p>
+<!-- --------------------------------- -->
+    <h3>
+      <div id="errorsOut"></div>
+    </h3>
+<!-- ---------------------------------------------- -->
+
     <script src="script.js"></script>
   </body>
 </html>
