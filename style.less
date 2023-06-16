@@ -1,9 +1,7 @@
-@font-face{
-  font-family: Gagalin;
-  src: url(gagalin/Gagalin.ttf);
-}
+
 body{
-  font-family: Gagalin;
+  font-family: system-ui;
+  background-color: cadetblue;
 }
 .emptiness{
   position: relative;
@@ -27,19 +25,41 @@ body{
 p{
   display: flex;
   justify-content: center;
+
   button{
     display: block;
     margin-left: 100px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(156, 156, 156);
+    margin-left: 90px;
+
   }
   a{
     display: block;
     margin-left: -100px;
-    
+    text-decoration: none;
+  }
+  a:hover{
+    background-color: rgb(156, 156, 156);
+    margin-left: -90px;
+
+  }
+  span{
+    font-size: xx-large;
   }
   .but{
     padding: 5px;
-    background-color: rgb(66, 24, 165);
+    background-color: grey;
     color: cornsilk;
-    border: solid 2px rgb(24, 165, 43);
+    border: solid 2px #ffffff;
+    font-size: medium;
+    border-radius: 5px;
   }
+}
+#errorsOut{
+  color: brown;
+  width: 200px;
+  margin: auto;
 }

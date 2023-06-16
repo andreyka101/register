@@ -1,9 +1,6 @@
-@font-face {
-  font-family: Gagalin;
-  src: url(gagalin/Gagalin.ttf);
-}
 body {
-  font-family: Gagalin;
+  font-family: system-ui;
+  background-color: cadetblue;
 }
 .emptiness {
   position: relative;
@@ -31,14 +28,34 @@ p {
 p button {
   display: block;
   margin-left: 100px;
+  cursor: pointer;
+}
+p button:hover {
+  background-color: #9c9c9c;
+  margin-left: 90px;
 }
 p a {
   display: block;
   margin-left: -100px;
+  text-decoration: none;
+}
+p a:hover {
+  background-color: #9c9c9c;
+  margin-left: -90px;
+}
+p span {
+  font-size: xx-large;
 }
 p .but {
   padding: 5px;
-  background-color: #4218a5;
+  background-color: grey;
   color: cornsilk;
-  border: solid 2px #18a52b;
+  border: solid 2px #ffffff;
+  font-size: medium;
+  border-radius: 5px;
+}
+#errorsOut {
+  color: brown;
+  width: 200px;
+  margin: auto;
 }
