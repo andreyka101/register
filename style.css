@@ -33,6 +33,7 @@ p button {
 p button:hover {
   background-color: #9c9c9c;
   margin-left: 90px;
+  box-shadow: 6px 0px 3px #4d4d4d;
 }
 p a {
   display: block;
@@ -42,6 +43,7 @@ p a {
 p a:hover {
   background-color: #9c9c9c;
   margin-left: -90px;
+  box-shadow: -6px 0px 3px #4d4d4d;
 }
 p span {
   font-size: xx-large;
@@ -55,7 +57,36 @@ p .but {
   border-radius: 5px;
 }
 #errorsOut {
+  display: flex;
+  justify-content: center;
+  font-size: 3cqi;
   color: brown;
-  width: 200px;
+  width: 600px;
   margin: auto;
+}
+@media screen and (max-width: 1110px) {
+  #errorsOut {
+    font-size: 4cqi;
+  }
+}
+@media screen and (max-width: 730px) {
+  #errorsOut {
+    font-size: 5cqi;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 470px) {
+  #errorsOut {
+    font-size: 6.3cqi;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #errorsOut {
+    font-size: 7cqi;
+    width: 230px;
+  }
+  .box {
+    width: 215px;
+  }
 }
