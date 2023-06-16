@@ -2,13 +2,6 @@ body {
   font-family: system-ui;
   background-color: cadetblue;
 }
-.emptiness {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  height: 7cqi;
-  z-index: auto;
-}
 .box {
   display: flex;
   flex-direction: column;
@@ -57,35 +50,16 @@ p .but {
   border-radius: 5px;
 }
 #errorsOut {
+  height: 40px;
   display: flex;
   justify-content: center;
-  font-size: 3cqi;
+  align-items: center;
+  font-size: 20PX;
   color: brown;
-  width: 600px;
+  width: 230px;
   margin: auto;
 }
-@media screen and (max-width: 1110px) {
-  #errorsOut {
-    font-size: 4cqi;
-  }
-}
-@media screen and (max-width: 730px) {
-  #errorsOut {
-    font-size: 5cqi;
-    width: 400px;
-  }
-}
-@media screen and (max-width: 470px) {
-  #errorsOut {
-    font-size: 6.3cqi;
-    width: 300px;
-  }
-}
 @media screen and (max-width: 320px) {
-  #errorsOut {
-    font-size: 7cqi;
-    width: 230px;
-  }
   .box {
     width: 215px;
   }
